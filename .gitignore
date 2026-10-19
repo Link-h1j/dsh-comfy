@@ -1,0 +1,17 @@
+# generated / local-only files
+node_modules/
+tools/preview-out/
+tools/preview-out-live/
+*.log
+*.tmp
+
+# machine-private configuration (paths / start script); see config.example.json
+config.local.json
+
+# internal team working documents (not part of the public plugin)
+CONTRACT.md
+
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini

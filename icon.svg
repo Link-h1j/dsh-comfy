@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="ComfyUI workflow canvas">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7c5cff"/>
+      <stop offset="1" stop-color="#22c1a4"/>
+    </linearGradient>
+  </defs>
+  <rect x="3" y="3" width="58" height="58" rx="14" fill="url(#g)" opacity="0.16"/>
+  <rect x="3" y="3" width="58" height="58" rx="14" fill="none" stroke="url(#g)" stroke-width="2"/>
+  <path d="M20 22h10M20 42h10M34 32h10" stroke="url(#g)" stroke-width="2.6" stroke-linecap="round"/>
+  <rect x="12" y="16" width="12" height="12" rx="3" fill="none" stroke="url(#g)" stroke-width="2.4"/>
+  <rect x="12" y="36" width="12" height="12" rx="3" fill="none" stroke="url(#g)" stroke-width="2.4"/>
+  <rect x="40" y="26" width="12" height="12" rx="3" fill="none" stroke="url(#g)" stroke-width="2.4"/>
+  <circle cx="22" cy="22" r="2.4" fill="url(#g)"/>
+  <circle cx="22" cy="42" r="2.4" fill="url(#g)"/>
+  <circle cx="46" cy="32" r="2.4" fill="url(#g)"/>
+</svg>

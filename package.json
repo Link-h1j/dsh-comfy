@@ -1,0 +1,60 @@
+{
+  "name": "dsh-comfy",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "ComfyUI workflow canvas for the DSH (DeepSeek Harness) desktop right sidebar: browse, inspect, edit and run local ComfyUI workflows on a native infinite canvas instead of an embedded browser.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "comfyui",
+    "workflow",
+    "infinite-canvas",
+    "cordis"
+  ],
+  "author": "Link-h1j",
+  "license": "MIT",
+  "homepage": "https://github.com/Link-h1j/dsh-comfy",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Link-h1j/dsh-comfy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Link-h1j/dsh-comfy/issues"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "lib",
+    "client.body.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE",
+    "docs"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-sidebar-right",
+        "@deepseek-ai/dsh-client-ui-session"
+      ]
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "ComfyUI 工作流",
+    "description": "在右侧边栏以无限画布方式浏览、编辑参数并运行本机 ComfyUI 工作流，无需内嵌浏览器。"
+  }
+}
